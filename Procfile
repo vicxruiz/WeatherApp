@@ -1,1 +1,1 @@
-web: gunicorn w- 4 app:untitled.server -b localhost:5000
+web: gunicorn app:untitled.server -b localhost:5000
